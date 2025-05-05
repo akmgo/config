@@ -1,0 +1,20 @@
+[package]
+name = "lla_plugin_interface"
+description = "Interface for lla plugins"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords = ["cli", "ls", "blazing-fast"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+serde.workspace = true
+prost.workspace = true
+
+[build-dependencies]
+prost-build.workspace = true
+
+[features]
+regenerate-protobuf = []

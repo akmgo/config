@@ -1,0 +1,102 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    {
+      "type": "custom",
+      "format": ">---------------------------Operating System---------------------------<",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "os",
+      "key": "⛄ OS           ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "host",
+      "key": "💻 MRB          ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "kernel",
+      "key": "🚀 Kernel       ",
+      "keyColor": "cyan"
+    },
+    // "uptime",
+    {
+      "type": "custom",
+      "format": "|---------------------------Software System----------------------------|",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "packages",
+      "key": "📦 Packages     ",
+      "keyColor": "green"
+    },
+    {
+      "type": "shell",
+      "key": "🎲 Shell        ",
+      "keyColor": "green"
+    },
+    {
+      "type": "terminal",
+      "key": "💼 Terminal     ",
+      "keyColor": "green"
+    },
+    {
+      "type": "terminalfont",
+      "key": "🔠 Terminal Font",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "format": "|---------------------------Hardware System----------------------------|",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "display",
+      "key": "🖥️ Display      ",
+      "keyColor": "yellow"
+    },
+    //"de",
+    //"wm",
+    //"wmtheme",
+    //"theme",
+    //"icons",
+    //"cursor",
+    {
+      "type": "cpu",
+      "key": "🎃 CPU          ",
+      "showPeCoreCount": true,
+      "keyColor": "yellow"
+    },
+    {
+      "type": "gpu",
+      "key": "👻 GPU          ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "memory",
+      "key": "🎓 RAM          ",
+      "keyColor": "yellow"
+    },
+    //"swap",
+    {
+      "type": "disk",
+      "key": "💾 Disk         ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "localip",
+      "key": "🌐 Local IP     ",
+      "keyColor": "yellow"
+    },
+    //"battery",
+    //"poweradapter",
+    //"locale",
+    {
+      "type": "colors",
+      "paddingLeft": 28,
+      "symbol": "circle"
+    }
+  ]
+}

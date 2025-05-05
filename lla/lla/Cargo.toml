@@ -1,0 +1,50 @@
+[package]
+name = "lla"
+version.workspace = true
+edition.workspace = true
+description = "Blazing Fast and highly customizable ls Replacement with Superpowers"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords = ["cli", "ls", "blazing-fast"]
+categories = ["command-line-utilities"]
+exclude = ["docs"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap.workspace = true
+clap_complete.workspace = true
+serde.workspace = true
+toml.workspace = true
+dirs.workspace = true
+colored.workspace = true
+rayon.workspace = true
+chrono.workspace = true
+libloading.workspace = true
+serde_json.workspace = true
+walkdir.workspace = true
+tempfile.workspace = true
+users.workspace = true
+parking_lot.workspace = true
+lla_plugin_interface = { version = "0.3.10", path = "../lla_plugin_interface" }
+lla_plugin_utils = { version = "0.3.10", path = "../lla_plugin_utils" }
+once_cell.workspace = true
+dashmap.workspace = true
+unicode-width.workspace = true
+strip-ansi-escapes.workspace = true
+terminal_size.workspace = true
+dialoguer.workspace = true
+atty.workspace = true
+indicatif.workspace = true
+console.workspace = true
+prost = "0.12"
+regex.workspace = true
+glob.workspace = true
+ignore = "0.4"
+crossterm = "0.27"
+crossbeam-channel = "0.5.14"
+unicode-normalization = "0.1.22"
+num_cpus = "1.16"
+fuzzy-matcher = "0.3.7"
